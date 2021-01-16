@@ -29,6 +29,8 @@ const mapStateToProps = state => (
     }
 );
 
+// nice
+
 const mapDispatchToProps = dispatch => (
     {
         fetchUsersRequest: () => dispatch(fetchUsers()),
